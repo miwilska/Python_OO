@@ -46,7 +46,7 @@ r4 = r1 + s
 print(r4)
 
 q = s < r1
-print('is s < r1: ' + str(q))
+print('is sphere < r1: ' + str(q))
 
 
 #print(r1)

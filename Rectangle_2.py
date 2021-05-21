@@ -20,8 +20,8 @@ class Rectangle:
 r = Rectangle(b=8)
 r.a = 50
 print(r.calc_surface())
-# destroy r
-#del r
+# destroy rectangle
+#del rectangle
 
 r2 = Rectangle(2, 7)
 print(r2)

@@ -35,7 +35,7 @@ class Circle(Shape):
         return math.pi * self._a**2
 
     def __repr__(self):
-        return self.__class__.__name__ + "[r=" + str(self._a) + "] at " + str(hex(id(self)))
+        return self.__class__.__name__ + "[rectangle=" + str(self._a) + "] at " + str(hex(id(self)))
 
 
 class Sphere(Circle):
@@ -50,7 +50,7 @@ a = None
 
 r = Rectangle(5, 6)
 print(r)
-#r._a = 600
+#rectangle._a = 600
 print(r.calc_surface())
 r.swap_sides()
 r_desc = str(r)
@@ -62,9 +62,9 @@ print(c_desc)
 print(c.calc_surface())
 s = Sphere(8)
 print(s)
-print('s volume: ')
+print('sphere volume: ')
 print(s.calc_volume())
-print('s surface:')
+print('sphere surface:')
 print(s.calc_surface())
 
 shape_list = [r, c, s]

@@ -43,20 +43,20 @@ class Circle(Shape):
         return math.pi * self._a**2
 
     def __repr__(self):
-        return self.__class__.__name__ + "[r=" + str(self._a) + "] at " + str(hex(id(self)))
+        return self.__class__.__name__ + "[rectangle=" + str(self._a) + "] at " + str(hex(id(self)))
 
 
 class Triangle(Shape):
     def calc_surface(self):
         pass
 
-# It's not possible to create an instance of an abstract class Shape
-#s = Shape(67, 76)
-#print(s)
+# It'sphere not possible to create an instance of an abstract class Shape
+#sphere = Shape(67, 76)
+#print(sphere)
 
 r = Rectangle(5, 6)
 print(r)
-#r._a = 600
+#rectangle._a = 600
 print(r.calc_surface())
 r.swap_sides()
 print(r)
