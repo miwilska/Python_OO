@@ -1,5 +1,6 @@
 class Rectangle:
     num_rect = 0
+
     def __init__(self, a=10, b=6):
         self.set_params(a, b)
         Rectangle.num_rect += 1
